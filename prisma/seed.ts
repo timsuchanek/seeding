@@ -1,4 +1,5 @@
-import { PrismaClient } from '@prisma/client'
+// import { PrismaClient } from '@prisma/client'
+import { PrismaClient } from './client'
 
 async function main() {
   const prisma = new PrismaClient()
